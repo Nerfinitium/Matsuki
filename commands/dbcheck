@@ -2,7 +2,15 @@ import sql from 'sql-template-strings';
 import mysql from 'mysql';
 import {
     
+    MessageEmbed,
+    Message,
+    Channel,
 
+} from 'discord.js';
+    
+    
+export default {
+callback: (message: Message, ...args: string[]) => {
 
 var con = mysql.createConnection({
   host: "localhost",
