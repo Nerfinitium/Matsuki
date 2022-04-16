@@ -1,18 +1,17 @@
 import sql from 'sql-template-strings';
 import mysql from 'mysql';
+
 import {
-    
     MessageEmbed,
     Message,
     Channel,
-
+    Emoji,
 } from 'discord.js';
-    
-    
-export default {
-callback: (message: Message, ...args: string[]) => {
 
-var con = mysql.createConnection({
+
+export default {
+  callback: (message: Message, ...args: string[]) => {
+  var con = mysql.createConnection({
   host: "localhost",
   user: "root",
   password: "Tureet45",
@@ -44,5 +43,5 @@ con.connect(function(err) {
     console.log("Number of records inserted: " + result.affectedRows);
   });
 });
-
-//if typed l
+ }
+}
