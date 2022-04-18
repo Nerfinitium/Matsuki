@@ -2,7 +2,7 @@
   "name": "thething",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,9 +10,28 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "async": "^3.2.3",
+    "chart.js": "^3.7.1",
+    "coingecko-api": "^1.0.10",
     "discord.js": "^13.6.0",
     "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "fetch": "^1.1.0",
+    "google-finance": "^0.1.12",
+    "mongoose": "^6.3.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "sql-template-strings": "^2.2.2",
     "ts-node": "^10.7.0",
-    "typescript": "^4.6.3"
+    "typescript": "^4.6.3",
+    "util": "^0.12.4",
+    "yahoo-finance": "^0.3.7"
+  },
+  "devDependencies": {
+    "@types/coingecko-api": "^1.0.10",
+    "@types/mongoose": "^5.11.97",
+    "@types/mysql": "^2.15.21",
+    "xhr": "^2.6.0",
+    "xhr2": "^0.2.1"
   }
 }

@@ -24,7 +24,7 @@ export default (client: Client) => {
     console.log(commands)
 
     client.on('messageCreate', (message) => {
-        if (message.author.bot || !message.content.startsWith('!')) {
+        if (message.author.bot || !message.content.startsWith('>')) {
             return
         }
 
