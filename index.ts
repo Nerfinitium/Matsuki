@@ -33,5 +33,5 @@ client.on('ready', () => {
     handler(client)
 })}}
 
-client.login("OTI0NjAyMzAyNzkzMzk2MjQ0.Ycg8_w.EqQ0_xgQ1qcYSmoyfVzxjJWBxtw")
+client.login("NAH")
 
