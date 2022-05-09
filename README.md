@@ -6,3 +6,5 @@ to start bot write ts-node index.ts
 (i write that shit for my self i can understand what to do )
 
 NOTE: go to master 
+
+UPDATE COMİNG SOON 
